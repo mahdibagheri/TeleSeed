@@ -224,26 +224,11 @@ function create_config( )
     sudo_users = {77750573},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
+    about_text = [[team aqa mp3 v.5
+    
+    in bor fagat @mahdimp3 hast 
+    
+    id clannel : @aqamp3
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -415,15 +400,16 @@ will return group logs
 !banlist
 will return group ban list
 
-**U can use both "/" and "!" 
+! and /    ham bezar
 
 
-*Only owner and mods can add bots in group
+admin bot aqamp3: @mahdimp3
+@its_mpa
+id bot: aqa_mp3 
 
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
+id channel : @aqamp3
+in bot mal team aqa mp3 hast
+bye
 
 ]]
   }
