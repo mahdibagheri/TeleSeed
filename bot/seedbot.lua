@@ -225,10 +225,10 @@ function create_config( )
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[team aqa mp3 v.5
-    
-    in bor fagat @mahdimp3 hast 
-    
-    id clannel : @aqamp3
+    id channel bot : @aqamp3
+id admin bot : @mahdimp3
+id bot : @aqa_mp3
+
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -307,8 +307,10 @@ bye
 
 ]],
     help_text = [[
-Commands list :
-
+#1 Remove 
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 !kick [username|id]
 You can also do it by reply
 
@@ -318,39 +320,42 @@ You can also do it by reply
 !unban [id]
 You can also do it by reply
 
-!who
-Members list
+!kickme
+remove khod az group
 
-!modlist
-Moderators list
+!banlist
+will return group ban list
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 
+
+#2 admin
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 !promote [username]
-Promote someone
+add admin be group 
 
 !demote [username]
-Demote someone
+remove admin az group
 
-!kickme
-Will kick user
+!modlist 
+dedan admins group
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 
-!about
-Group description
-
+#3 Changes
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 !setphoto
-Set and locks group photo
-
+Changes photo group
 !setname [name]
-Set group name
+Changes name group {nam gp}
 
-!rules
-Group rules
-
-!id
-return group id or user id
-
-!help
-
-!lock [member|name|bots|leave]	
+!lock [member|name|bots|leave]
 Locks [member|name|bots|leaveing] 
 
 !unlock [member|name|bots|leave]
@@ -362,23 +367,56 @@ Set <text> as rules
 !set about <text>
 Set <text> as about
 
-!settings
-Returns group settings
+!setflood [value]
+Set [value] as flood sensitivity
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 
-!newlink
-create/revoke your group link
-
-!link
-returns group link
-
-!owner
-returns group owner id
-
+#4 admin group 
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 !setowner [id]
 Will set id as owner
 
-!setflood [value]
-Set [value] as flood sensitivity
+!owner
+returns group owner id
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+
+#5 link 
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+!link
+returns group link
+
+!newlink
+create/revoke your group link
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+
+#6 .............
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+!who
+Members list
+
+!about
+Group description
+
+!rules
+Group rules
+
+!id
+return group id or user id
+
+!settings
+Returns group settings
 
 !stats
 Simple message statistics
@@ -398,21 +436,13 @@ returns user id
 
 !log
 will return group logs
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 
-!banlist
-will return group ban list
-
-! and /    ham bezar
-
-
-admin bot aqamp3: @mahdimp3
-@its_mpa
-id bot: aqa_mp3 
-
-id channel : @aqamp3
-in bot mal team aqa mp3 hast
-bye
-
+id channel bot : @aqamp3
+id admin bot : @mahdimp3
+id bot : @aqa_mp3
 ]]
   }
   serialize_to_file(config, './data/config.lua')
