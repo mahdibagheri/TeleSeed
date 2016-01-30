@@ -294,15 +294,17 @@ Only sudo users can run this command
 This command will send text to [group_id]
 
 
-**U can use both "/" and "!" 
+! and /    ham bezar
 
 
-*Only admins and sudo can add bots in group
+admin bot aqamp3: @mahdimp3
+@its_mpa
+id bot: aqa_mp3 
 
+id channel : @aqamp3
+in bot mal team aqa mp3 hast
+bye
 
-*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
 Commands list :
